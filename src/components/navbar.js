@@ -31,7 +31,7 @@ export default class Navbar extends Component {
           <a className="navbar-item" href="/#/">
             <div className="has-text-weight-bold">himynameisoleg</div>
           </a>
-          <a
+          <div
             role="button"
             onClick={this.handleClick}
             className={`navbar-burger ${
@@ -39,12 +39,11 @@ export default class Navbar extends Component {
             }`}
             aria-label="menu"
             aria-expanded="false"
-            href="/#/"
           >
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
-          </a>
+          </div>
         </div>
 
         <div

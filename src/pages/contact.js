@@ -1,17 +1,12 @@
 import React from "react"
-import Navbar from "../components/navbar"
+import Layout from "../components/layout"
 import Header from "../components/header"
 
 export default () => (
   <div>
-    <Navbar />
-    <section className="section">
-      <div className="columns is-centered">
-        <div className="column is-half">
-          <Header headerText="Contact" />
-          <a href="https://twitter.com/himynameisoleg">@himynameisoleg</a>
-        </div>
-      </div>
-    </section>
+    <Layout>
+      <Header headerText="Contact" />
+      <a href="https://twitter.com/himynameisoleg">@himynameisoleg</a>
+    </Layout>
   </div>
 )

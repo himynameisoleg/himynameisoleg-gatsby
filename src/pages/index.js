@@ -1,6 +1,6 @@
 import React from "react"
+import Layout from "../components/layout"
 import Header from "../components/header"
-import Navbar from "../components/navbar"
 
 export default () => {
   const todos = [
@@ -14,8 +14,9 @@ export default () => {
     "Actually build it out so im not plugging something useless and empty",
     "and probbaly migrate it to Gatsby because this has been oh so pleasent",
   ]
+
   const todosList = todos.map((item, index) => {
-    if ([1, 5].indexOf(index) !== -1) {
+    if ([0, 1, 5].indexOf(index) !== -1) {
       return (
         <li className="list-item">
           <strike>{item}</strike>
@@ -28,19 +29,12 @@ export default () => {
 
   return (
     <div>
-      <Navbar />
-
-      <section className="section">
-        <div className="columns is-centered">
-          <div className="column is-half">
-            {/* header /\ */}
-            <div className="container">
-              <Header headerText="Welcome to my Gatsby Site" />
-              <h2 className="subtitle">What a world.</h2>
-            </div>
-          </div>
+      <Layout>
+        <div className="container">
+          <Header headerText="Welcome to my Gatsby Site" />
+          <h2 className="subtitle">What a world.</h2>
         </div>
-      </section>
+      </Layout>
 
       <section className="section">
         <div className="columns is-centered">

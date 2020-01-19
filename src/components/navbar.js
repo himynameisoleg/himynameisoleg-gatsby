@@ -6,12 +6,9 @@ export default class Navbar extends Component {
   constructor(props) {
     super(props)
     this.state = { isToggleOn: false }
-
-    // This binding is necessary to make `this` work in the callback
-    this.handleClick = this.handleClick.bind(this)
   }
 
-  handleClick() {
+  handleClick = () => {
     this.setState(state => ({
       isToggleOn: !state.isToggleOn,
     }))

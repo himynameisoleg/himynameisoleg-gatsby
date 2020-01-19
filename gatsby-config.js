@@ -5,5 +5,18 @@
  */
 
 module.exports = {
-  plugins: [`gatsby-plugin-sass`],
+  siteMetadata: {
+    title: "himynameisoleg",
+  },
+  plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `src`,
+        path: `${__dirname}/src/`,
+      },
+    },
+    `gatsby-transformer-remark`,
+    `gatsby-plugin-sass`,
+  ],
 }

@@ -40,5 +40,5 @@ function removeDuplicates(myArr, prop) {
 
 we can then call the function and get a filtered list:
 ```javascript
-removeDuplicates(articlesList, id);
+removeDuplicates(articlesList, 'id');
 ```

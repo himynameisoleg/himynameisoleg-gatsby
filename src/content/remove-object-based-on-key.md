@@ -1,6 +1,6 @@
 ---
 tags: [TIL]
-title: "Remove duplicates from an Array og Objects based on property"
+title: "Remove duplicates from an Array of Objects based on property"
 date: "2020-02-06"
 ---
 

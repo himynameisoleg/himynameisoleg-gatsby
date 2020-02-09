@@ -13,7 +13,7 @@ export default ({ data }) => {
           <div className="content box">
             <h3 className="has-text-weight-bold">{data.allMarkdownRemark.totalCount} Posts</h3>
             {data.allMarkdownRemark.edges.map(({ node }) => (
-              <article className="post" key={node.id}>
+              <article className="post" style={{margin: "0 0 20px 0"}} key={node.id}>
                 <Link to={node.fields.slug}>
                   <h4 className="has-text-weight-bold">
                     {node.frontmatter.title} <span>— {node.frontmatter.date}</span>

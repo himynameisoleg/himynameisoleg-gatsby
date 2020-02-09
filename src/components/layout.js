@@ -6,7 +6,7 @@ export default ({ children }) => (
     <Navbar />
     <section className="section">
       <div className="columns is-centered">
-        <div className="column is-half">{children}</div>
+        <div className="column is-8">{children}</div>
       </div>
     </section>
   </div>

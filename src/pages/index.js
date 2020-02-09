@@ -10,21 +10,19 @@ export default ({ data }) => {
         <div className="container">
           <Header headerText="Welcome to my BrainDump" />
           <h2 className="subtitle">What a world.</h2>
-          <div className="section">
-            <h2 className="subtitle">News:</h2>
-            <p>Just implemented graphql markdown transformer.</p>
-          </div>
-          <div className="section">
-            <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
+          <div className="content box">
+            <h3 className="has-text-weight-bold">{data.allMarkdownRemark.totalCount} Posts</h3>
             {data.allMarkdownRemark.edges.map(({ node }) => (
-              <div key={node.id}>
+              <article className="post" key={node.id}>
                 <Link to={node.fields.slug}>
-                  <h3>
+                  <h4 className="has-text-weight-bold">
                     {node.frontmatter.title} <span>— {node.frontmatter.date}</span>
-                  </h3>
+                  </h4>
                 </Link>
-                <p>{node.excerpt}</p>
-              </div>
+                <div className="media">
+                  <p>{node.excerpt}</p>
+                </div>
+              </article>
             ))}
           </div>
         </div>

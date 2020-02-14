@@ -17,7 +17,7 @@ export default class Navbar extends Component {
   render() {
     return (
       <nav
-        className="navbar is-transparent"
+        className="navbar is-fixed-top has-shadow"
         role="navigation"
         aria-label="main navigation"
       >

@@ -3,9 +3,6 @@ tags: [TIL]
 title: "Array Reduce Function"
 date: "2020-01-19"
 ---
-
-# Array.reduce()
-
 I finally learned how Array.reduce() functions work. They are essentially a shorter way of writing sum, or difference problems without needed to declare a counter. Traitionally you would write something like:
 
 ```javascript

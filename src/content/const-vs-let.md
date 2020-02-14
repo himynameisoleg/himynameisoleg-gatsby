@@ -3,8 +3,6 @@ tags: [TIL]
 title: "Understanding const vs let"
 date: "2020-02-02"
 ---
-# Understanding const vs let
-
 ### the facts
 
 In Javascript ES6

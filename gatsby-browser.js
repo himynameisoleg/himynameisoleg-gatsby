@@ -1,4 +1,2 @@
-import "./src/styles/global.scss"
-
-// or:
-// require('./src/styles/global.css')
+require("./src/styles/global.scss");
+require("prismjs/themes/prism-tomorrow.css");

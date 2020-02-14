@@ -2,11 +2,6 @@
 title: Using data-* Custom Attributes for style agnostic Unit Tests
 date: "2020-02-12"
 ---
-
-# Using data-* Custom Attributes for style agnostic Unit Tests
-
-Feb 13, 2020
-
 We can use a **"data-\*"** attribute in our html to make accessing DOM elements for our unit tests more easily. Grabbing elements based on id, class, or html symantics is completely viable, but it may also lead ot some unexpected unit test failures due to simple UI changes -- say the removal or renaming of a class. Thus using a custom data attribute allows us to still access the elements, but avoids the potential failure of a functional unit test when a style changes. Take the following example using Vue.js:
 
 ```html

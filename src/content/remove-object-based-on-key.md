@@ -3,9 +3,6 @@ tags: [TIL]
 title: "Remove duplicates from an Array of Objects based on property"
 date: "2020-02-06"
 ---
-
-# Removing duplicates from an Array of Objects based on property
-
 Here is a useful code snippet that allows you to pass in an array of objects, and then filter out the objects that have duplicate key values. 
 Imagine you have a list of articles that you have merged from multiple sources and want to remove the duplicates based on id.
 

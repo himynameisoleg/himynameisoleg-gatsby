@@ -9,6 +9,7 @@ module.exports = {
     title: "himynameisoleg",
   },
   plugins: [
+    `gatsby-plugin-sass`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -16,7 +17,43 @@ module.exports = {
         path: `${__dirname}/src/`,
       },
     },
-    `gatsby-transformer-remark`,
-    `gatsby-plugin-sass`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          `gatsby-remark-prismjs`,
+          // {
+          //   resolve: `gatsby-remark-prismjs`,
+          //   options: {
+          //     classPrefix: "language-",
+          //     inlineCodeMarker: null,
+          //     aliases: {},
+          //     showLineNumbers: false,
+          //     noInlineHighlight: false,
+          //     languageExtensions: [
+          //       {
+          //         language: "superscript",
+          //         extend: "javascript",
+          //         definition: {
+          //           superscript_types: /(SuperType)/,
+          //         },
+          //         insertBefore: {
+          //           function: {
+          //             superscript_keywords: /(superif|superelse)/,
+          //           },
+          //         },
+          //       },
+          //     ],
+          //     prompt: {
+          //       user: "root",
+          //       host: "localhost",
+          //       global: false,
+          //     },
+          //     escapeEntities: {},
+          //   },
+          // },
+        ],
+      },
+    },
   ],
 }

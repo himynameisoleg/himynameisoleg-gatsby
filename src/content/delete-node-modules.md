@@ -1,11 +1,8 @@
 ---
 tags: [TIL]
-title: "Free Up Space with node_modules" 
-date: "2020-01-19"
+title: "Free Up Disk Space, delete node_modules" 
+date: "2020-01-18"
 ---
-
-# Remove node_modules from a directory
-
 Here is a simple script that checks a directory for node module and prints the total damage done:
 
 ```bash

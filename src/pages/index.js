@@ -11,13 +11,20 @@ export default ({ data }) => {
           <Header headerText="Welcome to my BrainDump" />
           <h2 className="subtitle">What a world.</h2>
           <div className="content box">
-            <h3 className="has-text-weight-bold">{data.allMarkdownRemark.totalCount} Posts</h3>
+            <h3 className="has-text-weight-bold">
+              {data.allMarkdownRemark.totalCount} Posts
+            </h3>
             {data.allMarkdownRemark.edges.map(({ node }) => (
-              <article className="post" style={{marginBottom: '2em'}} key={node.id}>
+              <article
+                className="post"
+                style={{ marginBottom: "2em" }}
+                key={node.id}
+              >
                 <Link to={node.fields.slug}>
                   <h4 className="has-text-weight-bold">
-                    {node.frontmatter.title} <span>— {node.frontmatter.date}</span>
+                    {node.frontmatter.title}{" "}
                   </h4>
+                  <p>{node.frontmatter.date}</p>
                 </Link>
                 <div className="media">
                   <p>{node.excerpt}</p>
@@ -31,22 +38,22 @@ export default ({ data }) => {
   )
 }
 export const query = graphql`
-         query {
-           allMarkdownRemark {
-             totalCount
-             edges {
-               node {
-                 id
-                 frontmatter {
-                   title
-                   date(formatString: "DD MMMM, YYYY")
-                 }
-                 fields {
-                   slug
-                 }
-                 excerpt
-               }
-             }
-           }
-         }
-       `
+  query {
+    allMarkdownRemark {
+      totalCount
+      edges {
+        node {
+          id
+          frontmatter {
+            title
+            date(formatString: "DD MMMM, YYYY")
+          }
+          fields {
+            slug
+          }
+          excerpt
+        }
+      }
+    }
+  }
+`

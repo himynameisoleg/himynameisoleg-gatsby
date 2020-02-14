@@ -2,7 +2,7 @@
 title: JavaScript Closures
 date: "2020-02-13"
 ---
-A Closure in JavaScript gives you access to an outer funtion's scope from an inner function. This is usefule for a number of things, but first lets take a look at how we can make a local variable. 
+A Closure in JavaScript gives you access to an outer funtion's scope from an inner function. This is useful for a number of things, but first lets take a look at how we can make a local variable. 
 
 For example: 
 

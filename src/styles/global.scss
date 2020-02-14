@@ -14,5 +14,7 @@ $m-black: #000000;
   width: 33px;
   height: 33px;
   border-radius: 100%;
-  background: linear-gradient(0.25turn, $m-pink, $m-orange);
+  background: url("../images/MYFACEJAYPEG.jpg") center center;
+  background-size: 33px 33px;
+  background-color: linear-gradient(0.25turn, $m-pink, $m-orange);
 }

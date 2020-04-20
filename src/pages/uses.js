@@ -35,7 +35,7 @@ export default () => (
         </li>
         <li className="list-item">
           For quick edits or just for fun I use <strong>iTerm 2</strong> with{" "}
-          <strong>Vim </strong> (my{" "}
+          <strong>tmux</strong> + <strong>Vim </strong> (my{" "}
           <a
             href="https://github.com/himynameisoleg/dotfiles/blob/master/.vimrc"
             target="_blank"

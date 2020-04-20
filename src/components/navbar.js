@@ -64,6 +64,13 @@ export default class Navbar extends Component {
             >
               Contact
             </Link>
+            <Link
+              to="/uses/"
+              className="navbar-item"
+              onClick={this.handleClick}
+            >
+              Uses
+            </Link>
           </div>
         </div>
       </nav>

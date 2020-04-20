@@ -6,7 +6,12 @@ export default () => (
   <div>
     <Layout>
       <Header headerText="Contact" />
-      <a href="https://twitter.com/himynameisoleg">@himynameisoleg</a>
+      <p>
+        <a href="https://github.com/himynameisoleg">Github</a>
+      </p>
+      <p>
+        <a href="https://twitter.com/himynameisoleg">Twitter</a>
+      </p>
     </Layout>
   </div>
 )

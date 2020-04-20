@@ -3,7 +3,7 @@ tags: [TIL]
 title: "Free Up Disk Space, delete node_modules" 
 date: "2020-01-18"
 ---
-Here is a simple script that checks a directory for node module and prints the total damage done:
+Here is a simple little script that checks a directory for node module and prints the total damage done:
 
 ```bash
 cd directory_to_check 

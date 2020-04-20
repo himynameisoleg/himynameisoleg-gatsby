@@ -33,9 +33,6 @@ function removeDuplicates(myArr, prop) {
         return arr.map(mapObj => mapObj[prop]).indexOf(obj[prop]) === pos;
     });
 }
-```
 
-we can then call the function and get a filtered list:
-```javascript
 removeDuplicates(articlesList, 'id');
 ```

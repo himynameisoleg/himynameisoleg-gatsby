@@ -3,7 +3,7 @@ tags: [TIL]
 title: "Array Reduce Function"
 date: "2020-01-19"
 ---
-I finally learned how Array.reduce() functions work. They are essentially a shorter way of writing sum, or difference problems without needed to declare a counter. Traitionally you would write something like:
+Today I dived into a little bit of how Array.reduce() functions work. Its easy to think of them as essentially being a shorter, functional way of writing sum, or difference problems without needed to declare a counter. Traitionally you would write something like:
 
 ```javascript
 const numbers = [-1, 1, 2, 3];
@@ -38,7 +38,7 @@ const sum = numbers.reduce((acc, curr) => {
 ```
 Here acc is initialized at 5 and we start at index 0 instead of 1. If we dont explicitly give a starting point, it will default acc to index 0 and the first itteration will have **curr** set to index 1 .
 
-Additionally we can shorthen this even furthur by removing the return statement:
+Lastly, we can shorthen this even furthur by removing the return statement for a nice little one-liner:
 
 ```javascript
 const sum = numbers.reduce((acc, curr) => acc + curr, 5); // 10

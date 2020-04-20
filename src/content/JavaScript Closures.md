@@ -2,7 +2,7 @@
 title: JavaScript Closures
 date: "2020-02-13"
 ---
-A Closure in JavaScript gives you access to an outer funtion's scope from an inner function. This is useful for a number of things, but first lets take a look at how we can make a local variable. 
+A Closure in JavaScript gives you access to an outer funtion's scope from an inner function. This is useful for a number of things, but first lets take a look at how we declare a local variable. 
 
 For example: 
 
@@ -23,7 +23,7 @@ todaysDinner(); // steak
 
 Notice how the inner function **whatsForDinner** was able to access dinner directly without having to pass it in as a parameter.
 
-Another useful use case for closure is to "emulate" private methods and "instance varaiable" similar to what we would see in a traditional OOP language. Lets create a self invoking function:
+A possible use case for a closure is to "emulate" private methods and "instance varaiables" similar to what we would see in a traditional OOP language. To do this lets create a self invoking function - a function that calls itself:
 
 ```javascript
 var shoppingCart = (function (){
@@ -58,5 +58,5 @@ console.log(shoppingCart.checkItems()) // 1
 console.log(shoppingCart.totalItems) // undefined
 ```
 
-Notice that by creating a closure using a self-invoking function are able to have private variable and methods. This pattern is also referred to as a Module which keeps the **evil** global variables as bay. 
+Notice that by creating a closure using a self-invoking function, we are able to have private variable and methods. This pattern is also referred to as a Module which keeps all those **pesky** global variables as bay.
 

@@ -9,7 +9,7 @@ In Javascript ES6
 
 - **let:** allows rebinding
 - **const:** makes contract that does not allow rebinding
-both allow fo the values within to change, ie. values of object
+both allow for the values within to change, ie. values of object
 
 ```javascript
 const person = {
@@ -27,8 +27,8 @@ person = "Mike";
 
 
 
-### general rule of thumb (opinionated)
+### general rule of thumb (this part I found to be highly opinionated)
 
 - use const by default
-- use let if you know you will rebnid in the future
-- dont use var (if using ES6)
+- use let if you know you will rebind in the future
+- don't use var (if using ES6)

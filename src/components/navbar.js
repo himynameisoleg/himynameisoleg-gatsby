@@ -30,7 +30,9 @@ export default class Navbar extends Component {
           </a>
           <div
             role="button"
+            tabIndex="0"
             onClick={this.handleClick}
+            onKeyDown={this.handleClick}
             className={`navbar-burger ${
               this.state.isToggleOn ? "is-active" : ""
             }`}

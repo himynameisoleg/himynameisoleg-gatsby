@@ -9,12 +9,12 @@ export default ({ data }) => {
       <Layout>
         <div className="container">
 
-          <div className="columns is-centered mt-1">
+          <div className="columns is-mobile is-centered mt-1">
             <Photo name="Photo-circle" />
           </div>
           <h1 className="title has-text-centered">Oleg Perchyk</h1>
           <h2 className="subtitle has-text-centered">
-            I'm a software developer, life hacker and lover geek culture. 
+            I'm a software developer, life hacker and lover of geek culture. 
           </h2>
 
           <p className="has-text-centered">More <Link to="/about/">about me</Link>.</p>

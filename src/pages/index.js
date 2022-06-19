@@ -22,28 +22,25 @@ export default ({ data }) => {
           <hr />
 
           {/* TODO move articles box to its own component */}
-          <div className="content box">
+          <div className="content">
             <h3 className="has-text-weight-bold">
               {data.allMarkdownRemark.totalCount} Posts
             </h3>
             {data.allMarkdownRemark.edges.map(({ node }) => (
-              <article
-                className="post"
-                style={{ marginBottom: "2em" }}
-                key={node.id}
-              >
+              <div className="box">
+              <article className="post" key={node.id}>
                 <Link to={node.fields.slug}>
-                  <h4 className="has-text-weight-bold">
-                    {node.frontmatter.title}{" "}
-                  </h4>
+                  <h4 className="has-text-weight-bold">{node.frontmatter.title}{" "}</h4>
                   <p>{node.frontmatter.date}</p>
                 </Link>
                 <div className="media">
                   <p>{node.excerpt}</p>
                 </div>
               </article>
+              </div>
             ))}
           </div>
+
         </div>
       </Layout>
     </div>

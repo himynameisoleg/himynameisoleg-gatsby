@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 
 export default ({ data }) => {
@@ -7,6 +7,7 @@ export default ({ data }) => {
   return (
     <Layout>
       <div className="content">
+        <h3><Link to="/#/">&lt;Back</Link></h3>
         <h1 className="title">{post.frontmatter.title}</h1>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>

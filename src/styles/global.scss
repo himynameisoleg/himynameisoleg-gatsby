@@ -14,9 +14,17 @@ $m-black: #000000;
   width: 33px;
   height: 33px;
   border-radius: 100%;
-  background: url("../images/3dinst.png") center center;
-  background-size: 33px 33px;
-  background-color: linear-gradient(0.25turn, $m-pink, $m-orange);
+  // background: url("../images/3dinst.png") center center;
+  // background-size: 33px 33px;
+  background: linear-gradient(0.25turn, $m-pink, $m-orange);
+}
+
+.Photo-circle {
+  width: 112px;
+  height: 112px;
+  border-radius: 100%;
+  background: url("../images/portrait-bw.png") center center;
+  background-size: 112px 112px;
 }
 
 .site-container {

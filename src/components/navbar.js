@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import { Link } from "gatsby"
-import Logo from "../components/logo"
+import Photo from "./photo"
 
 export default class Navbar extends Component {
   constructor(props) {
@@ -23,7 +23,7 @@ export default class Navbar extends Component {
       >
         <div className="navbar-brand">
           <a className="navbar-item" href="/#/">
-            <Logo />
+            <Photo name="Logo-circle" />
           </a>
           <a className="navbar-item" href="/#/">
             <div className="has-text-weight-bold">himynameisoleg</div>
@@ -59,13 +59,13 @@ export default class Navbar extends Component {
             >
               About
             </Link>
-            <Link
+            {/* <Link
               to="/contact/"
               className="navbar-item"
               onClick={this.handleClick}
             >
               Contact
-            </Link>
+            </Link> */}
             <Link
               to="/uses/"
               className="navbar-item"

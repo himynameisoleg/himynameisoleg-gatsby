@@ -5863,6 +5863,15 @@
     "@parcel/transformer-raw" "2.6.0"
     "@parcel/transformer-react-refresh-wrap" "2.6.0"
 
+"gatsby-plugin-google-analytics@^4.16.0":
+  "integrity" "sha512-K1F9XOjfmcpJgny20CX+2XW3beINK06eM36ya8Pec7RlRM96zIU0FFkPxD7/KaunhQd4N64ECsHyp1L7LAu/Og=="
+  "resolved" "https://registry.npmjs.org/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-4.16.0.tgz"
+  "version" "4.16.0"
+  dependencies:
+    "@babel/runtime" "^7.15.4"
+    "minimatch" "3.0.4"
+    "web-vitals" "^1.1.2"
+
 "gatsby-plugin-page-creator@^4.16.0":
   "integrity" "sha512-NMEZVZipbwmQEGESgCsnvXqr35pEGTDkzLuGgiITC2/IlY66LZAJbqzT5Pfw1xY4v10ETWBzKbDCrVIijJb/Tw=="
   "resolved" "https://registry.npmjs.org/gatsby-plugin-page-creator/-/gatsby-plugin-page-creator-4.16.0.tgz"
@@ -11505,6 +11514,11 @@
   "integrity" "sha512-wYxSGajtmoP4WxfejAPIr4l0fVh+jeMXZb08wNc0tMg6xsfZXj3cECqIK0G7ZAqUq0PP8WlMDtaOGVBTAWztNw=="
   "resolved" "https://registry.npmjs.org/web-namespaces/-/web-namespaces-1.1.4.tgz"
   "version" "1.1.4"
+
+"web-vitals@^1.1.2":
+  "integrity" "sha512-PFMKIY+bRSXlMxVAQ+m2aw9c/ioUYfDgrYot0YUa+/xa0sakubWhSDyxAKwzymvXVdF4CZI71g06W+mqhzu6ig=="
+  "resolved" "https://registry.npmjs.org/web-vitals/-/web-vitals-1.1.2.tgz"
+  "version" "1.1.2"
 
 "webidl-conversions@^3.0.0":
   "integrity" "sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ=="

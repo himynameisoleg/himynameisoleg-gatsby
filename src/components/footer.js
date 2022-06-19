@@ -1,4 +1,5 @@
 import React, { Component } from "react"
+import Social from "./social"
 
 export default class Footer extends Component {
   render() {
@@ -9,6 +10,7 @@ export default class Footer extends Component {
             <strong>&copy; {(new Date().getFullYear())} {" himynameisoleg"}</strong>
           </p>
           <p>Powered by <a href="https://gatsbyjs.com">Gatsby</a> and <a href="https://bulma.io/">Bulma</a>.</p>
+          <Social />
         </div>
       </footer>
     )

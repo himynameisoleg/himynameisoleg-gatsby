@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import Header from "../components/header"
 
+
 export default () => (
   <div>
     <Layout>
@@ -21,6 +22,7 @@ export default () => (
       <p>☕ <strong>Coffee Enthusiast:</strong></p>
       <p>The world of espresso is amazing. I brew using a modified <a href="https://www.gaggia-na.com/products/gaggia-classic-pro">Gaggia Classic Pro</a> machine and get my bean powder using a <a href="https://www.eureka.co.it/en/catalogo/prodotti/macinacaff%C3%A8+on+demand/1/19.aspx">Eureka Mignon Silenzio</a> grinder.</p>
       <br/>
+
     </Layout>
   </div>
 )

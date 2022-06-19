@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import { Link } from "gatsby"
 import Photo from "./photo"
+import Social from "./social"
 
 export default class Navbar extends Component {
   constructor(props) {
@@ -28,6 +29,9 @@ export default class Navbar extends Component {
           <a className="navbar-item" href="/#/">
             <div className="has-text-weight-bold">himynameisoleg</div>
           </a>
+
+          
+
           <div
             role="button"
             tabIndex="0"
@@ -45,10 +49,11 @@ export default class Navbar extends Component {
           </div>
         </div>
 
+
         <div
           className={`navbar-menu ${this.state.isToggleOn ? "is-active" : ""}`}
         >
-          <div className="navbar-end">
+          <div className="navbar-start">
             <Link to="/" className="navbar-item" onClick={this.handleClick}>
               Home
             </Link>
@@ -73,6 +78,12 @@ export default class Navbar extends Component {
             >
               Uses
             </Link>
+          </div>
+
+          <div className="navbar-end">
+            <div className="navbar-item mt-2">
+              <Social />
+            </div>
           </div>
         </div>
       </nav>

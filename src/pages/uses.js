@@ -6,76 +6,37 @@ export default () => (
   <div>
     <Layout>
       <Header headerText="Uses" />
-      <p>
-        Inspired by{" "}
-        <a href="https://uses.tech/" target="_blank" rel="noopener noreferrer">
-          uses.tech
-        </a>{" "}
-        by{" "}
-        <a href="https://wesbos.com/" target="_blank" rel="noopener noreferrer">
-          Wes Bos
-        </a>
-        .
-      </p>
-      <p>
-        I love the idea of "setup tours" and getting inspiration from others on
-        what tools to use to get work done.
-      </p>
-      <p>Here is a list of my everyday tools and gear.</p>
-      <br />
-      <h2 className="subtitle">Hardware</h2>
-      <ul className="list">
-        <li className="list-item">MacBook Pro 13" 2017</li>
-        <li className="list-item">24" NEC EA244WMI monitor</li>
-        <li className="list-item">
-          <a href="https://olkb.com/" target="_blank" rel="noopener noreferrer">
-            OLKB
-          </a>{" "}
-          Planck 40% ortholinear mechanical keyboard
-        </li>
-        <li className="list-item">Logitech G602 wireless mouse </li>
-      </ul>
+      <div className="content">
 
-      <h2 className="subtitle">Software</h2>
-      <ul className="list">
-        <li className="list-item">
-          Visual Studio Code with{" "}
-          <a
-            href="https://github.com/VSCodeVim/Vim"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            vscodevim
-          </a>{" "}
-          plugin
-        </li>
-        <li className="list-item">Material Theme High Contrast</li>
-        <li className="list-item">
-          <b>Inconsolata</b> font
-        </li>
-        <li className="list-item">
-          For quick edits or just for fun I use <strong>iTerm 2</strong> with{" "}
-          <strong>tmux</strong> + <strong>Vim </strong> (my{" "}
-          <a
-            href="https://github.com/himynameisoleg/dotfiles/blob/master/.vimrc"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            dotfiles
-          </a>
-          )
-        </li>
-        <li className="list-item">
-          <a
-            href="https://alfredapp.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Alfred
-          </a>{" "}
-          for Workflows and automation
-        </li>
-      </ul>
+        <p>Proud member of the <a href="https://uses.tech/" target="_blank" rel="noopener noreferrer"> uses.tech</a> fam. Here is what I've been using lately:</p>
+        <br/>
+        <p> <strong>Hardware (on the go):</strong></p>
+        <ul>
+          <li>MacBook Pro 13" 2017 non-touch-bar</li>
+          <li>Airpods Pro</li>
+        </ul>
+        <br/> 
+
+        <p> <strong>Hardware (at home):</strong></p>
+        <ul>
+          <li>Custom Desktop PC: Ryzen 5 2600, RX590, 16GB RAM</li>
+          <li>NEC EA244WMI 24" monitor</li>
+          <li>Keychron K2 hot swap w/ Aliaz silent switches</li>
+          <li>Logitech G604 mouse</li>
+        </ul>
+        <br/>
+
+        <p> <strong>Software:</strong></p>
+        <ul>
+          <li>Visual Studio Code</li>
+          <li><a href="https://github.com/VSCodeVim/Vim" target="_blank">vscodevim</a> plugin</li>
+          <li>Atom One Dark theme</li>
+          <li>Inconsolata font</li>
+          <li>iTerm2</li>
+          <li>Messing around with Vim (my <a href="https://github.com/himynameisoleg/dotfiles/blob/master/.vimrc" target="_blank">dotfiles</a>)</li>
+          <li><a href="https://alfredapp.com" target="_blank">Alfred</a> for workflow automation</li>
+        </ul>
+      </div>
     </Layout>
   </div>
 )

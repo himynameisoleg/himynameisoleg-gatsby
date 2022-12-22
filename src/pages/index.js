@@ -14,7 +14,7 @@ export default ({ data }) => {
           </div>
           <h1 className="title has-text-centered">Oleg Perchyk</h1>
           <h2 className="subtitle has-text-centered">
-            I'm a software developer, life hacker and lover of geek culture. 
+            I'm a software developer, hardware tinkerer and lover of geek culture. 
           </h2>
 
           <p className="has-text-centered">More <Link to="/about/">about me</Link>.</p>
@@ -48,7 +48,7 @@ export default ({ data }) => {
 }
 export const query = graphql`
   query {
-    allMarkdownRemark(sort: { fields: frontmatter___date, order: DESC }) {
+    allMarkdownRemark(sort: {frontmatter: {date: DESC}}) {
       totalCount
       edges {
         node {

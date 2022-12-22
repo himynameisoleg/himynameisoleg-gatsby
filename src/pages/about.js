@@ -12,7 +12,7 @@ export default () => (
       <br/>
 
       <p>👨‍🍳 <strong>Home Chef:</strong></p>
-      <p>I have a passion for food -- for the artful and scientific methods of preparing it. I love to feed others and bringing the joy of a delicious meal to my friends and family. I also love to eat my way through new cities. Check out those adventures <a href="https://www.instagram.com/tomyumgoons/">here</a>.</p>
+      <p>I have a passion for food -- for the artful and scientific methods of preparing it. I love to feed others and bringing the joy of a delicious meal to my friends and family. I also love to eat my way through new cities. Check out those adventures <a href="https://www.instagram.com/tomyumgoons/" target="_blank">here</a>.</p>
       <br/>
 
       <p>👨‍💻 <strong>Senior Application Developer:</strong></p>

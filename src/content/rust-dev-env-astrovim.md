@@ -20,7 +20,7 @@ I did not have a previous Neovim install or any custom configurations so I went 
 mv ~/.config/nvim ~/.config/nvim.bak
 ```
 
-Once Neovim was installed, I had to install the AstroNvim plugin. This is done using a package manager called "vim-plug," which is included with Neovim by default. To install AstroNvim, I simply had to add the following line to my Neovim configuration file (located at ~/.config/nvim/init.vim):
+Once Neovim was installed, I had to install the AstroNvim config package. This is done by simply cloning the AstroNvim repository into the nvim configs directory. To install AstroNvim, I simply had to run the following:
 
 ```bash
 git clone https://github.com/AstroNvim/AstroNvim ~/.config/nvim

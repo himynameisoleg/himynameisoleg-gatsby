@@ -17,7 +17,7 @@ export default ({ data }) => {
             I'm a software developer, hardware tinkerer and lover of geek culture. 
           </h2>
 
-          <p className="has-text-centered">More <Link to="/about/">about me</Link>.</p>
+          <h2 className="subtitle has-text-centered">More <Link to="/about/">about me</Link>.</h2>
 
           <hr />
 

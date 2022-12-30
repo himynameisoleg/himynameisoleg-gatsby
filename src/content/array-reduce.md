@@ -3,43 +3,31 @@ tags: [TIL]
 title: "Array Reduce Function"
 date: "2020-01-19"
 ---
-Today I dived into a little bit of how Array.reduce() functions work. Its easy to think of them as essentially being a shorter, functional way of writing sum, or difference problems without needed to declare a counter. Traitionally you would write something like:
 
-```javascript
-const numbers = [-1, 1, 2, 3];
+A higher-order function is a function that takes one or more functions as arguments, or returns a function as its result. Higher-order functions are an important concept in functional programming, as they allow you to abstract over actions rather than just values.
 
-let sum = 0;
-for (let n of numbers) {
-  sum += n;
-}
-// 5
+One common example of a higher-order function in JavaScript is the **Array.prototype.reduce()** function. This function takes an array and reduces it to a single value by applying a given function to each element in the array, starting from the left.
+
+Here is an example of using **reduce()** to sum up the elements in an array:
+
+```JavaScript
+const numbers = [1, 2, 3, 4, 5];
+const sum = numbers.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+
+console.log(sum); // 15
 ```
 
-Array.reduce behaves similarly in that it can perform a mathematical opeation iteratively. So the above code can be translated to:
+In this example, the **reduce()** function is called on the numbers array and passed a callback function that takes two arguments: an accumulator and a current value. The accumulator is the running total, and the current value is the current element being processed in the array. The callback function returns the sum of the accumulator and the current value, which is then assigned to the accumulator for the next iteration.
 
-```javascript
-const sum = numbers.reduce((accumulator, current) => {
-  return  accumulator + current;
-});
+The **reduce()** function also takes an optional initial value as a second argument. In this case, we have passed 0 as the initial value, so the accumulator will start at 0 on the first iteration. If no initial value is provided, the first element in the array will be used as the accumulator and the callback function will start processing from the second element.
 
-// also 5
+Here is another example of using **reduce()** to concatenate the elements of an array into a single string:
+
+```JavaScript
+const words = ['I', 'am', 'a', 'sentence'];
+const sentence = words.reduce((accumulator, currentValue) => accumulator + ' ' + currentValue);
+
+console.log(sentence); // "I am a sentence"
 ```
 
-The 'current' keyword simply refers to the current item being iterated over 'accumulator' keyword is simply the "sum" variable we used in the first code block. It can just as easily be the count, difference, etc... variable. 
-
-If no starting point is defined, then it is assumed that the accumulator is 0, so our iteration will always start at index 1 and our accumulator will be set to the value at index 0. However, if we define a starting point, say 5, then we will start our iteration at index 0:
-
-```javascript
-const sum = numbers.reduce((acc, curr) => {
-  return  acc + curr;
-}, 5);
-
-// now returns 10
-```
-Here acc is initialized at 5 and we start at index 0 instead of 1. If we dont explicitly give a starting point, it will default acc to index 0 and the first itteration will have **curr** set to index 1 .
-
-Lastly, we can shorthen this even furthur by removing the return statement for a nice little one-liner:
-
-```javascript
-const sum = numbers.reduce((acc, curr) => acc + curr, 5); // 10
-```
+As you can see, **reduce()** is a very powerful and versatile higher-order function that can be used to perform a wide variety of operations on arrays. 

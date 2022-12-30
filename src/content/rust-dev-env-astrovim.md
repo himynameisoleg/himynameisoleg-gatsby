@@ -27,7 +27,7 @@ git clone https://github.com/AstroNvim/AstroNvim ~/.config/nvim
 nvim
 ```
 
-On initial startup AstroNvim installed all the default plugins, however I noticed that some of the icons were displaying question mark boxes [?]. This was because I did not have a NerdFont installed. NerdFonts are essentially popular fonts used by us devs which have been patched with an enormous collection of glyphs -- everything from programming language icons, folders, and let's not forget about emojis. The easiest way to install a nerd font is by using [webi](https://webinstall.dev/nerdfont/):
+On initial startup AstroNvim installed all the default plugins, however I noticed that some of the icons were displaying question mark boxes [?]. This was because I did not have a NerdFont installed. NerdFonts are popular fonts which have been patched with an enormous collection of glyphs -- everything from programming language icons, folders, and emojis. The easiest way to install a nerd font is by using [webi](https://webinstall.dev/nerdfont/):
 
 ```bash
 curl -sS https://webi.sh/nerdfont | sh

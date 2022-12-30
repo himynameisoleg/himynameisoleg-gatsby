@@ -58,5 +58,5 @@ console.log(shoppingCart.checkItems()) // 1
 console.log(shoppingCart.totalItems) // undefined
 ```
 
-Notice that by creating a closure using a self-invoking function, we are able to have private variable and methods. This pattern is also referred to as a Module which keeps all those **pesky** global variables as bay.
+Notice that by creating a closure using a self-invoking function, we are able to have private variable and methods. This pattern is also referred to as a Module and is useful for managing scope of global variables in JavaScript.
 

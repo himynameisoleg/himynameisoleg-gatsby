@@ -12,29 +12,24 @@ export default () => (
         <br/>
         <p> <strong>Software:</strong></p>
         <ul>
-          <li>Visual Studio Code</li>
-          <li><a href="https://github.com/VSCodeVim/Vim" target="_blank">vscodevim</a> plugin</li>
-          <li>One Dark theme</li>
-          <li>Inconsolata font</li>
-          <li>iTerm2</li>
-          <li>AstoNvim (my <a href="https://github.com/himynameisoleg/dotfiles/" target="_blank">dotfiles</a>)</li>
-          <li>tmux</li>
-          <li><a href="https://alfredapp.com" target="_blank">Alfred</a> for workflow automation</li>
+          <li>Editor: VS Code, <a href="https://zed.dev" target="_blank">Zed</a> - a wonderful new text editor written in Rust</li>
+          <li>Terminal: <a href="https://www.warp.dev" target="_blank">Warp</a> - an AI powered terminal written in Rust </li>
+          <li>Vim: AstoNvim (my <a href="https://github.com/himynameisoleg/dotfiles/" target="_blank">dotfiles</a>) - for when you need to be productive in the terminal</li>
         </ul>
 
         <p> <strong>Hardware (on the go):</strong></p>
         <ul>
-          <li>MacBook Pro 13" 2017 non-touch-bar</li>
-          <li>Airpods Pro</li>
+          <li>Laptop: MacBook Pro M1 Max 16</li>
+          <li>Headphones: AIAIAI TMA-2 BT</li>
         </ul>
         <br/> 
 
         <p> <strong>Hardware (home battlestation):</strong></p>
         <ul>
-          <li>Custom Desktop PC: Ryzen 5 2600, RX590, 16GB RAM</li>
-          <li>HP X32 QHD monitor</li>
-          <li>AnnePro 2 w/ Kailh Box Brown</li>
-          <li>Logitech G604 mouse</li>
+          <li>Desktp: Ryzen 5 2600, RX590, 16GB RAM</li>
+          <li>Monitors: NEC EA244 - still going strong (thanks Alfredo!)</li>
+          <li>Keyboard(s): Planck rev6, crkbd corne, Sofle RGB v2.1, Keychron K2, Anne Pro 2, keeb.io Iris rev4, keeb.io levinson, cannonkeys Orhto60  </li>
+          <li>Mouse: Logitech G604</li>
         </ul>
         <br/>
 

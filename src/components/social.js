@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import GithubIcon from "../images/assets/github_icon.svg"
 import LinkedinIcon from "../images/assets/linkedin_icon.svg"
-import TwitterIcon from "../images/assets/twitter_icon.svg"
+// import TwitterIcon from "../images/assets/twitterx_icon.svg"
 import InstagramIcon from "../images/assets/instagram_icon.svg"
 
 export default class Social extends Component {
@@ -20,9 +20,9 @@ export default class Social extends Component {
           <InstagramIcon className="mr-3"/>
         </a>
 
-        <a href="https://twitter.com/himynameisoleg" target="_blank" rel="noreferrer">
+        {/* <a href="https://twitter.com/himynameisoleg" target="_blank" rel="noreferrer">
           <TwitterIcon />
-        </a>
+        </a> */}
       </div>
     )
   }

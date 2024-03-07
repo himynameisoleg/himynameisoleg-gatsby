@@ -10,13 +10,27 @@ $m-yellow: #ffaf65;
 $m-white: #ffffff;
 $m-black: #000000;
 
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 .Logo-circle {
   width: 33px;
   height: 33px;
   border-radius: 100%;
-  // background: url("../images/3dinst.png") center center;
-  // background-size: 33px 33px;
-  background: linear-gradient(0.25turn, $m-pink, $m-orange);
+  background: linear-gradient(-45deg, $m-yellow, $m-orange, $m-pink, $m-purple);
+  background-size: 200% 200%;
+  animation: gradientAnimation 7s ease infinite;
+  
 }
 
 .Photo-circle {

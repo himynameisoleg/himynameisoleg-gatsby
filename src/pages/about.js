@@ -16,15 +16,15 @@ export default () => (
       <br/>
 
       <p>🪛 <strong>Hardware Tinkerer:</strong></p>
-      <p>When I am not writing code I love nothing more than diving into projects that involve building, repairing, and tinkering with various types of hardware. Whether it's using my <a href="https://www.creality.com/products/ender-3-3d-printer" target="_blank" rel="noreferrer">3D printer</a> to create custom parts and prototypes, working with Arduino and Raspberry Pi to build and program electronic devices, repairing vintage CRT TVs and PVMs to play high fidelity retro games, or building analog guitar pedals from scratch, I am constantly seeking new challenges and opportunities to learn and grow as a hardware enthusiast. Whether I'm working on a small, personal project or collaborating with others on a larger scale, I am always eager to take on new challenges and explore the limitless possibilities of hardware.</p>
+      <p>I love diving into hands-on projects like building, soldering, and 3D printing. From tinkering with MCUs, Raspberry Pis, and FPGAs to repairing vintage PVM CRTs, I thrive on challenges. Whether it's crafting analog guitar pedals or soldering a new mechanical keyboard.</p>
       <br />
 
-      <p>👨‍💻 <strong>Senior Application Developer:</strong></p>
-      <p>I have been working on a whole load of fun stuff @ <strong>Accenture</strong> since 2017. </p> 
+      <p>👨‍💻 <strong>Technical Manager and Lead Engineer:</strong></p>
+      <p>I have been solving a whole lot of interesting problems in my roles @<strong>United Airlines</strong>  and  @<strong>Accenture</strong> building robust microservices, intelligent chatbots, web applications and cloudformation pipelines.</p> 
       <br/>
       
       <p>☕ <strong>Coffee Enthusiast:</strong></p>
-      <p>The world of espresso is amazing. I brew using a modified <a href="https://www.gaggia-na.com/products/gaggia-classic-pro" target="_blank" rel="noreferrer" >Gaggia Classic Pro</a> machine and get my bean powder using a <a href="https://www.eureka.co.it/en/catalogo/prodotti/macinacaff%C3%A8+on+demand/1/19.aspx" target="_blank" rel="noreferrer">Eureka Mignon Silenzio</a> grinder.</p>
+      <p>Can't live without it. I brew using a modified <a href="https://www.gaggia-na.com/products/gaggia-classic-pro" target="_blank" rel="noreferrer" >Gaggia Classic Pro</a> machine and get my bean powder using a <a href="https://www.eureka.co.it/en/catalogo/prodotti/macinacaff%C3%A8+on+demand/1/19.aspx" target="_blank" rel="noreferrer">Eureka Mignon Silenzio</a> grinder.</p>
       <br/>
 
     </Layout>

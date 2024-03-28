@@ -14,7 +14,7 @@ export default ({ data }) => {
           </div>
           <h1 className="title has-text-centered">Oleg Perchyk</h1>
           <h2 className="subtitle has-text-centered">
-            I'm a software developer, hardware tinkerer and lover of geek culture. 
+            I'm a software engineer, recommendation engines researcher, and enthuseist maker. 
           </h2>
 
           <h2 className="subtitle has-text-centered">More <Link to="/about/">about me</Link>.</h2>

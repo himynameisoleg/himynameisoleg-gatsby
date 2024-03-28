@@ -7,7 +7,7 @@ export default ({ data }) => {
   return (
     <Layout>
       <div className="content">
-        <h3><Link to="/#/">&lt; Back</Link></h3>
+        <h3><Link to="/#/">&larr; Back</Link></h3>
         <p>{post.frontmatter.date}</p>
         <h1 className="title">{post.frontmatter.title}</h1>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />

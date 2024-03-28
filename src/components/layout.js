@@ -7,7 +7,7 @@ export default ({ children }) => (
     <Navbar />
     <section className="site-content section" style={{marginTop: '20px'}}>
       <div className="columns is-centered">
-        <div className="column is-8">{children}</div>
+        <div className="column is-6">{children}</div>
       </div>
     </section>
     <Footer />
